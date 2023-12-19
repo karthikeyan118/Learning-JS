@@ -1,0 +1,83 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fefefe;
+}
+/* Remove margins and padding from the list */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the list items */
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+.head img {
+  width: 200px;
+}
+.head {
+  display: flex;
+  align-items: center;
+}
+.sec-section input {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: #000;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  white-space: no-wrap;
+}
+.btn i {
+  margin-right: 10px;
+}
+.filter {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-top: 20px;
+}
+.my-items {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.my-items li {
+  width: 40%;
+  padding: 5px 20px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  border: 1px solid rgb(183, 183, 183);
+  display: flex;
+  justify-content: space-between;
+}
+.my-items li i {
+  color: red;
+  cursor: pointer;
+}
+.btn-block {
+  width: 100%;
+  text-align: center;
+  border: 1px solid gray;
+  background-color: transparent;
+  border-radius: 5px;
+  outline: 0;
+  padding: 10px 30px;
+  margin-top: 30px;
+  cursor: pointer;
+}

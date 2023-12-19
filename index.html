@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping list</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300&family=Inter:wght@100;200;300;400&family=Nunito:wght@200;300;400&family=Oswald:wght@200;300;400&family=Oxanium:wght@200;300;400;500&family=Poppins:wght@100;200;300&family=Teko:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header class="head">
+        <img src="./assets/dummy-logo.jfif" alt="leaf" />
+        <h3>Shopping List</h3>
+      </header>
+      <main class="sec-section">
+        <form id="item-form">
+          <input type="text" id="item-input" placeholder="Enter Item ..." />
+          <button class="btn" type="submit">
+            <i class="fa-solid fa-plus"></i>Add Item
+          </button>
+          <input
+            type="text"
+            class="filter"
+            placeholder="Enter Item to Filter ..."
+          />
+        </form>
+      </main>
+      <ul class="my-items" id="item-list">
+        <li>
+          electronics<button class="one two">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li>
+          furnitures<button class="one two">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li>
+          toys<button class="one two">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li>
+          cloths<button class="one two">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+      </ul>
+      <button class="btn-block">Clear All</button>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
